@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="GoogleDrive.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>HTML and CSS Responsive Layout</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="logo">
+                <img src="googlelogo_color_116x41dp.png" alt="">
+                <span>Drive</span>
+            </div>
+            <div class="container1">
+                <div class="request-access-icon">
+
+                </div>
+                <div class="main">
+
+                    <div class="header">
+                        You need access
+                    </div>
+                    <div id="message">
+                        <div class="body">
+                            Ask for access, or switch to an account with access.
+                            <a href="#" style="text-decoration: none; color: #1a73e8;">Learn more</a>
+
+                        </div>
+                    </div>
+                    <div style="margin: 24px 0;">
+                        <textarea id="textarea" class="body" placeholder="Message (optional)"></textarea>
+                        <div id="underline" style="background-color: #1a73e8; height: 2px; transform: scaleX(0);"></div>
+                    </div>
+                    <button id="request-access-button">Request access</button>
+                    <div id="current-account">You are signed in as</div>
+                    <div style="display: flex; justify-content: center;">
+                        <button id="accounts-button" aria-label="switch accounts">
+                            <div style="height: 20px; width: 20px; position: relative;"><i class="fa-solid fa-user"></i>
+                            </div>
+                            <div style="margin-left: 7px;margin-right: 7px;color: #202124;">kinjal.webosmotic@gmail.com
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

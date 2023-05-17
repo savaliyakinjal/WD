@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+div {
+  display: block;
+}
+
+.container {
+  margin: auto;
+  align-items: center;
+  max-width: 750px;
+}
+.row {
+  margin: 180px 40px 20px 40px;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: -80px;
+  margin: 18px 0;
+  position: absolute;
+  white-space: nowrap;
+}
+.logo img {
+  display: inline-block;
+  height: 41px;
+  vertical-align: bottom;
+  width: 116px;
+}
+.logo span {
+  color: black;
+  display: inline-block;
+  opacity: 0.54;
+  text-decoration: none;
+  font-family: "Product Sans", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  top: -6px;
+  left: -7px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.main {
+  width: 360px;
+}
+.header {
+  color: #202124;
+  font-size: 32px;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  line-height: 40px;
+  margin: 8px 0;
+}
+
+.body {
+  color: #5f6368;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+#textarea {
+  background-color: #f1f3f4;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  caret-color: #1a73e8;
+  color: #202124;
+  display: block;
+  min-height: 92px;
+  max-height: 42vh;
+  outline: none;
+  overflow-y: visible;
+  overflow-x: hidden;
+  padding: 16px;
+  resize: none;
+  white-space: pre-wrap;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+#request-access-button {
+  background: #1a73e8;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Google Sans", Arial, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  padding: 8px 12px;
+}
+
+#current-account {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 9px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+#accounts-button {
+  background: transparent;
+  border: 1px solid #dadce0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 5px 7px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.container1 {
+  top: 17px;
+  position: relative;
+  width: 612px;
+}
+
+.request-access-icon {
+  background-image: -webkit-image-set(url(pyWUic.png));
+  background-size: 240px 240px;
+  background-repeat: no-repeat;
+  float: right;
+  margin-top: -78px;
+  height: 240px;
+  width: 240px;
+}

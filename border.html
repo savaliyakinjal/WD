@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        CSS border-image Property
+    </title>
+
+    <style>
+        p {
+            border: 10px solid transparent;
+            padding: 15px;
+            text-align: center;
+            font-size: 25px;
+            color: darkviolet;
+        }
+
+        #border {
+            border-image: linear-gradient(orange, yellow, green) 40 / 30px 10px stretch;
+
+        }
+
+        #border1 {
+            border-image: repeating-linear-gradient(50deg, blue, yellow, lightgreen 20px) 30 / 20px 30px round;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>border-image property</h2>
+
+    <p id="border">
+        Welcome to the javaTpoint.com
+    </p>
+    <p id="border1">
+        Welcome to the javaTpoint.com
+    </p>
+</body>
+
+</html>
